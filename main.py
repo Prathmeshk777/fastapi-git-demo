@@ -6,12 +6,12 @@ app = FastAPI()
 def home():
     return {"message": "Hello FastAPI 🚀"}
 
-# @app.get("/health")
-# def health():
-#     return {"status": "ok"}
+
 
 
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+#test
